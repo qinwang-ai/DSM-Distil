@@ -1,0 +1,43 @@
+HEADER    HYDROLASE   (SERINE PROTEINASE)         17-MAY-76   1EST
+...
+  240  1  4  4  0 TOTAL NUMBER OF RESIDUES, NUMBER OF CHAINS,
+                  NUMBER OF SS-BRIDGES(TOTAL,INTRACHAIN,INTERCHAIN)                .
+ 10891.0   ACCESSIBLE SURFACE OF PROTEIN (ANGSTROM**2)
+  162 67.5   TOTAL NUMBER OF HYDROGEN BONDS OF TYPE O(I)-->H-N(J)  ; PER 100 RESIDUES
+    0  0.0   TOTAL NUMBER OF HYDROGEN BONDS IN     PARALLEL BRIDGES; PER 100 RESIDUES
+   84 35.0   TOTAL NUMBER OF HYDROGEN BONDS IN ANTIPARALLEL BRIDGES; PER 100 RESIDUES
+   26 10.8   TOTAL NUMBER OF HYDROGEN BONDS OF TYPE O(I)-->H-N(I+2)
+   30 12.5   TOTAL NUMBER OF HYDROGEN BONDS OF TYPE O(I)-->H-N(I+3)
+   10  4.2   TOTAL NUMBER OF HYDROGEN BONDS OF TYPE O(I)-->H-N(I+4)
+...
+  #  RESIDUE AA STRUCTURE BP1 BP2  ACC   N-H-->O  O-->H-N  N-H-->O  O-->H-N
+    2   17   V  B 3   +A  182   0A   8  180,-2.5 180,-1.9   1,-0.2 134,-0.1
+
+                                    TCO  KAPPA ALPHA  PHI   PSI    X-CA   Y-CA   Z-CA
+                                  -0.776 360.0   8.1 -84.5 125.5  -14.7   34.4   34.8
+
+....;....1....;....2....;....3....;....4....;....5....;....6....;....7..
+    .-- sequential resnumber, including chain breaks as extra residues
+    |    .-- original PDB resname, not nec. sequential, may contain letters
+    |    |   .-- amino acid sequence in one letter code
+    |    |   |  .-- secondary structure summary based on columns 19-38
+    |    |   |  | xxxxxxxxxxxxxxxxxxxx recommend columns for secstruc details
+    |    |   |  | .-- 3-turns/helix
+    |    |   |  | |.-- 4-turns/helix
+    |    |   |  | ||.-- 5-turns/helix
+    |    |   |  | |||.-- geometrical bend
+    |    |   |  | ||||.-- chirality
+    |    |   |  | |||||.-- beta bridge label
+    |    |   |  | ||||||.-- beta bridge label
+    |    |   |  | |||||||   .-- beta bridge partner resnum
+    |    |   |  | |||||||   |   .-- beta bridge partner resnum
+    |    |   |  | |||||||   |   |.-- beta sheet label
+    |    |   |  | |||||||   |   ||   .-- solvent accessibility
+    |    |   |  | |||||||   |   ||   |
+  #  RESIDUE AA STRUCTURE BP1 BP2  ACC
+    |    |   |  | |||||||   |   ||   |
+   35   47   I  E     +     0   0    2
+   36   48   R  E >  S- K   0  39C  97
+   37   49   Q  T 3  S+     0   0   86    (example from 1EST)
+   38   50   N  T 3  S+     0   0   34
+   39   51   W  E <   -KL  36  98C   6
